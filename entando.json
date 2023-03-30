@@ -5,18 +5,26 @@
             "name": "simple-epc-mfe",
             "customElement": "simple-epc-mfe",
             "stack": "react",
-            "type": "widget",
+            "type": "app-builder",
             "group": "free",
-            "publicFolder": "public",
-            "titles": {
-                "en": "simple-epc-mfe",
-                "it": "simple-epc-mfe"
-            }
+            "publicFolder": "public",      
+            "slot": "content",
+            "paths": ["/simple-epc-mfe"],
+            "nav": [
+                {
+                    "label": {
+                        "en": "YOUR EPC LABEL IN ENGLISH",
+                        "it": "YOUR EPC LABEL IN ITALIAN"
+                    },
+                    "target": "internal", 
+                    "url": "/simple-epc-mfe"
+                }
+            ]
         }
     ],
     "svc": [],
     "name": "e71-simple-epc-mfe",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "e71-simple-epc-mfe description",
     "type": "bundle"
 }
