@@ -1,6 +1,19 @@
 {
     "microservices": [],
-    "microfrontends": [],
+    "microfrontends": [
+        {
+            "name": "simple-epc-mfe",
+            "customElement": "simple-epc-mfe",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "simple-epc-mfe",
+                "it": "simple-epc-mfe"
+            }
+        }
+    ],
     "svc": [],
     "name": "e71-simple-epc-mfe",
     "version": "0.0.1",
