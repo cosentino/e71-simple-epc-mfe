@@ -1,0 +1,9 @@
+{
+    "microservices": [],
+    "microfrontends": [],
+    "svc": [],
+    "name": "e71-simple-epc-mfe",
+    "version": "0.0.1",
+    "description": "e71-simple-epc-mfe description",
+    "type": "bundle"
+}
